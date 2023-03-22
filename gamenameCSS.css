@@ -1,1 +1,168 @@
+body {
+    background-image: url("spaceee1.jpg");
+    background-repeat: no-repeat;
 
+}
+.grid {
+    width: 500px;
+    height: 900px; 
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+.grid div {
+    height: 49px;
+    width: 49px;
+}
+.tetromino {
+    background-color: blue;
+}
+#nextpiece {
+    width: 250px;
+    height: 250px;
+}
+#start-button {
+    width: 300px;
+    height: 100px;
+    font-size: 50px;
+}
+#modetitle {
+    font-size: 30px;
+    text-align: center;
+}
+#titlegrid {
+    margin-left: 200px ;
+}
+#score, #highscore {
+    width: 250px;
+    height: 50px;
+    text-indent: 10px;
+    font-size: 30px;
+}
+#pause, #exit, #settings {    
+    width: 250px;
+    height: 50px;
+    font-size: 30px;
+}
+.chuchu {
+    height: 50px;
+}
+#darkmode, #lightmode, #darkmode1stimg {
+    width: 35px;
+}
+#gamenamehere {
+    width: 50%;
+    margin: auto;
+    height: 200px;
+    padding: 80px;
+}
+#importantitems {
+    width: 40%;
+}
+.listpsha {
+    height: 50px;
+    text-align: center;
+}
+#darkmode1st {
+    margin-left: 500px;
+}
+#settingsRIL {
+    width: 99%;
+    margin: auto;
+}
+.open-button1 {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 130px;
+    right: 850px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+
+.open-button2 {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 130px;
+    right: 630px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.open-button3 {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 130px;
+    right: 410px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+}
+.open-button4 {
+    background-color: #555;
+    color: white;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 130px;
+    right: 320px;
+    height: 50px;
+    width: 70px;
+}
+.form-container {
+    width: 500px;
+}
+#htppop {
+  display: none;
+  position: fixed;
+  bottom: 200px;
+  right: 540px;
+  z-index: 9;
+}
+#randrpop {
+    display: none;
+    position: fixed;
+    bottom: 200px;
+    right: 330px;
+    z-index: 9;
+  }
+#tntpop {
+    display: none;
+    position: fixed;
+    bottom: 200px;
+    right: 100px;
+    z-index: 9;
+}
+#setpop {
+    display: none;
+    position: fixed;
+    top: 450px;
+    left: 1200px;
+    z-index: 9;
+}
+#htpcar, #randrcar,#tntcar {
+    width: 400px;
+}
+.cancel {
+    font-size: 20px;
+}
+.setitems {
+    width: 250px;
+}
