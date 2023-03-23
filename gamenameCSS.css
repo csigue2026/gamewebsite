@@ -133,21 +133,21 @@ body {
   display: none;
   position: fixed;
   bottom: 200px;
-  right: 540px;
+  right: 230px;
   z-index: 9;
 }
 #randrpop {
     display: none;
     position: fixed;
     bottom: 200px;
-    right: 330px;
+    right: 230px;
     z-index: 9;
   }
 #tntpop {
     display: none;
     position: fixed;
     bottom: 200px;
-    right: 200px;
+    right: 230px;
     z-index: 9;
 }
 #setpop {
@@ -179,7 +179,4 @@ body {
 }
 #contofpbtnc {
     margin-top: 700px;
-}
-#close3 {
-    margin-left: 100px;
 }
