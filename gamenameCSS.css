@@ -147,7 +147,7 @@ body {
     display: none;
     position: fixed;
     bottom: 200px;
-    right: 100px;
+    right: 200px;
     z-index: 9;
 }
 #setpop {
@@ -179,4 +179,7 @@ body {
 }
 #contofpbtnc {
     margin-top: 700px;
+}
+#close3 {
+    margin-left: 100px;
 }
