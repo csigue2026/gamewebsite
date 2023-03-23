@@ -1,7 +1,6 @@
 body {
     background-image: url("images/spaceee1.jpg");
     background-repeat: no-repeat;
-
 }
 .grid {
     width: 500px;
@@ -40,7 +39,7 @@ body {
     text-indent: 10px;
     font-size: 30px;
 }
-#pause, #exit, #settings {    
+#exit, #settings, #aboutus {    
     width: 250px;
     height: 50px;
     font-size: 30px;
@@ -165,4 +164,18 @@ body {
 }
 .setitems {
     width: 250px;
+}
+#playbttn, #h2text{
+    font-size: 80px;
+    text-align: center;
+}
+#playbtncont, #h2cont {
+    float: none;
+    margin: 0 auto;
+    width: 1000px;
+    height: 100px;
+    padding: 10px;
+}
+#contofpbtnc {
+    margin-top: 800px;
 }
