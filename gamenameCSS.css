@@ -1,6 +1,7 @@
 body {
     background-image: url("images/spaceee1.jpg");
     background-repeat: no-repeat;
+    overflow: hidden;
 }
 .grid {
     width: 500px;
@@ -177,5 +178,5 @@ body {
     padding: 10px;
 }
 #contofpbtnc {
-    margin-top: 800px;
+    margin-top: 700px;
 }
