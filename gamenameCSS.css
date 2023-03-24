@@ -1,19 +1,21 @@
 body {
-    background-image: url("images/spaceee1.jpg");
+    background-image: url("spaceee1.jpg");
     background-repeat: no-repeat;
-    overflow: hidden;
+
 }
-.grid {
+.tetrisscreen {
     width: 500px;
-    height: 900px; 
-    background-color: yellow;
+    height: 930px; 
     display: flex;
     flex-wrap: wrap;
-    margin-left: 100px;
 }
-.grid div {
+.sc {
     height: 49px;
     width: 49px;
+}
+.limit {
+    background-color: blanchedalmond;
+    width: 49.5px;
 }
 .tetromino {
     background-color: blue;
@@ -80,7 +82,7 @@ body {
     opacity: 0.8;
     position: fixed;
     bottom: 130px;
-    right: 850px;
+    right: 1000px;
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -95,7 +97,7 @@ body {
     opacity: 0.8;
     position: fixed;
     bottom: 130px;
-    right: 630px;
+    right: 780px;
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -109,7 +111,7 @@ body {
     opacity: 0.8;
     position: fixed;
     bottom: 130px;
-    right: 410px;
+    right: 560px;
     width: 200px;
     height: 50px;
     font-size: 20px;
@@ -122,7 +124,7 @@ body {
     opacity: 0.8;
     position: fixed;
     bottom: 130px;
-    right: 320px;
+    right: 440px;
     height: 50px;
     width: 70px;
 }
@@ -133,21 +135,21 @@ body {
   display: none;
   position: fixed;
   bottom: 200px;
-  right: 230px;
+  right: 300px;
   z-index: 9;
 }
 #randrpop {
     display: none;
     position: fixed;
     bottom: 200px;
-    right: 230px;
+    right: 300px;
     z-index: 9;
   }
 #tntpop {
     display: none;
     position: fixed;
     bottom: 200px;
-    right: 230px;
+    right: 300px;
     z-index: 9;
 }
 #setpop {
