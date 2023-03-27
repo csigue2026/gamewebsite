@@ -108,38 +108,31 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     }
 
-
-
-    function freeze() {
-        if(current.some(index => squares[currentPosition + index + width].classList.contains('limit'))) {
-            current.forEach(index => squares[currentPosition + index].classList.add('limit'))
-            random = Math.floor(Math.random() * theTetrominoes.length)
-            current = theTetrominoes[random][0]
-            currentPosition = 4
-            draw()
-        }
-    }
     function control(e){
-        if(e.keyCode == 65){
+        if(e.keyCode == 37){
             Stayy()
         }
-        else if(e.keyCode == 82){
+        else if(e.keyCode == 38){
             Spin()
         }
-        else if(e.keyCode == 68){
+        else if(e.keyCode == 39){
             Gooo()
         }
-        else if(e.keyCode == 83){
+        else if(e.keyCode == 40){
             moveDown()
         }
     }
+
+    document.addEventListener('keyup', control)
+
     function moveDown() {
         undraw()
         currentPosition += width
         draw()
         freeze()
+        
     }
-
+    
     function Stayy() {
         undraw()
         const isAtLeftEdge = current.some(index => (currentPosition + index) % width === 0)
@@ -173,7 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
         current = theTetrominoes[random][currentRotation]
         draw()
     }
-    const dS = document.querySelectorAll('mini-grid div')
+    const dS = document.querySelectorAll('nextpiece')
     const dW = 4
     let dI = 0
 
